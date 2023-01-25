@@ -1,0 +1,56 @@
+banner {
+  background-image: url("images/banner.png");
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: center;
+
+  color: white;
+
+  background-size: cover;
+  justify-content: center;
+
+  padding: 200px;
+}
+
+.carousel img {
+  height: 500px;
+  width: 200px;
+  padding: 32px;
+  object-fit: cover;
+}
+
+.col {
+  /* height: 200px; */
+}
+
+.more img {
+  height: 40px;
+  width: 64px;
+  margin-left: 200px;
+  margin-top: 32px;
+}
+
+.more {
+  text-align: center;
+  margin: 64px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.outsider {
+  text-align: center;
+}
+.con-area {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+}
